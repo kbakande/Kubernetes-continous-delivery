@@ -16,6 +16,7 @@ PASSWORD = 'huff-puff'
 def client():
     """
     client fixture
+    
     """
     os.environ['JWT_SECRET'] = SECRET
     main.APP.config['TESTING'] = True
